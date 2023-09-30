@@ -1,0 +1,9 @@
+{
+    "source": {
+        "title": "Docs",  
+        "include": [ "./src/server/Logica.js", "./src/server/ReglasREST.js", "./src/server/servidor.js", "./README.md" ],
+        "exclude": [  ],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    }
+}
