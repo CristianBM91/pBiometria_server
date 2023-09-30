@@ -6,44 +6,37 @@
 5. [FAQs](#faqs)
 ### General Info
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+Esta es la api REST de proyecto gti-3A biometría. 
 ### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+![Image text](https://dossetenta.com/wp-content/uploads/2021/12/R6qFq3n.png)
 ## Technologies
 ***
 A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+* [MongoDB](https://www.mongodb.com/): Version 12.3 
+* [NodeJS](https://nodejs.org/es): Version 9.3.1
+* [Express](https://expressjs.com/): Version 9.3.1
 ## Installation
 ***
-A little intro about the installation. 
+Para inicializar el servidor hay que seguir los siguientes pasos: 
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ git clone https://github.com/CristianBM91/pBiometria_server.git
+$ npm install igual alguna libreria
+$ cd src
+$ cd server
+$ node servidor.js
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
 ## Collaboration
 ***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
+Puedes donarme dinero si te gusta la api por ser la mejor.
+> Por paypal
+> Transferencia bancaria
+> En efectivo
 ## FAQs
 ***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+Preguntas frecuentes.
+1. **Que pasa si no se ejecuta el servidor**
+Tendrás que cambiar ip y puerto. 
+2. __Que pasa si me pide librerias__ 
+Puede ser que haya que instalar:
+* $ npm install express
+* $ npm install mocha
